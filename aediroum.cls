@@ -3,12 +3,8 @@
 
 \LoadClass[titlepage]{article}
 
-\RequirePackage[utf8]{inputenc}
-\RequirePackage[T1]{fontenc}
-\RequirePackage[french]{babel}
-
-\RequirePackage{newunicodechar}
-\newunicodechar{·}{\ifmmode\cdot\else$\cdot$\fi}
+\RequirePackage{polyglossia}
+\setmainlanguage{french}
 
 \RequirePackage{moresize}
 \RequirePackage{parskip}
